@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<body>
+    <script>
+        // operator perbandingan
+        let hasil = 3 == "3";
+        document.writeln("<p>" +hasil+"</p>")
+        
+        hasil = 3 ==="3";
+        document.writeln("<p>" +hasil+"</p>")
+
+        hasil =3 != 8
+        document.writeln("<p>" +hasil+"</p>")
+
+        hasil =3 < 2;
+        document.writeln("<p>" +hasil+"</p>")
+
+        // Operator Logika
+        /*operator AND =&&
+        OR = ||
+        negasi/NOT = !
+        */
+        
+        const nilaiUjian = 87;
+        const nilaiPraktikum = 75;
+        const nilaiKkm = 75;
+
+        const lulusUjian = nilaiUjian>nilaiKkm;
+        const lulusPraktikum = nilaiPraktikum>nilaiKkm;
+
+        const lulus = lulusUjian && lulusPraktikum;
+        document.writeln(lulus);
+        </script>
+</body>
+</html>
