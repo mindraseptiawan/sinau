@@ -1,0 +1,2 @@
+# sinau
+belajar apapun
